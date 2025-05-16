@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
+    </head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi, I'm <span>Nagaraju</span><br> From Hyderabad</h1>
+            </div>
+        </div>
+    </div>
+ <!---------About---------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"> 
+                    <img src="images/user.jpg" alt=""></div>
+                <div class="about-col-2">
+                    <h1>About me</h1>
+                    <p>Hello :) thanks for watching my webpage.I'm Nagaraju from Hyderabad I'm a tech entuastic waiting for an opportunity to work together with someone.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('Education')" >Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Programming</span> <br>C/C++ | Java </li>
+                                <li><span>Web Development</span> <br>HTML | CSS | JavaScript | React.JS </li>
+                                <li><span>Data Base</span><br>SQL</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Experience">
+                            <ul>
+                                <li><span>Data Analyst</span> <br>Certified as Google Cloud Data Analyst</li>
+                                <li><span>AWS</span> <br> Certified as AWS cloud Engineer</li>
+                                <li><span>Cloud Digital Leader</span><br>Certified as Google Cloud Digital Leader</li>
+                                <li><span>PaloAlto</span> <br>Cyber Security Virtual Internship</li>
+                                </ul>
+                        </div>
+                        
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>B.Tech Computer Science& Engineering.</span> <br>CMR Technical Campus, Hyderabad</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------Services------------->
+    <div id="services">
+        <div class="container">
+                <h1 class="sub-title">My services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Software Development</h2>
+                        <p> This is the description about Software Development services</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-puzzle-piece"></i>
+                        <h2>Data Analysis</h2>
+                        <p> I'm a Certified Data Analyst from Google Cloud Platform
+                            <br>
+                            I'm Certified as Google Cloud Digital Leader from GCP
+                            
+                        </p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        
+                        <i class="fa-solid fa-globe"></i>
+                        <h2>AWS</h2>
+                        <p> I have certification as an AWS cloud engineer</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    
+                </div>            
+        </div>
+    </div>
+<!--------Portfolio-->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work1.jpg">
+                <div class="layer">
+                    <h3>React Weather App</h3>
+                    <p>A Weather Forecast Application made using react.js</p>
+                    <a href="https://nagarajushivapalli.netlify.app"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            
+            <div class="work">
+                <img src="images/work2.jpg">
+                <div class="layer">
+                    <h3>Amazon clone </h3>
+                    <p>A static webpage of amazon clone consisting of various css properties</p>
+                    <a href="https://nagarajushivapalli.github.io/amazon-clone"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            
+            
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!---------Contact--------------->
+<div id="content">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-envelope" style="color: #005eff;"></i>contact@example.com</p>
+                <p><i class="fa-solid fa-phone" style="color: #00ff2a;"></i>+919999999999</p>
+                <div class="social-icons">
+                    <a href="https://instagram.com/nagaraj_19089"><i class="fa-brands fa-instagram" style="color: #ff055d;"></i> </a>
+                    <a href="https://facebook.com/nagarajushivapally"><i class="fa-brands fa-facebook" style="color: #005eff;"></i> </a>
+                    <a href="https://twitter.com/nagaraju_504"><i class="fa-brands fa-x-twitter" style="color: #000000;"></i></a>
+                    <a href="https://linkedin.com/nagaraju-504"><i class="fa-brands fa-linkedin-in" style="color: #005eff;"></i></a>
+                </div>
+                <a href="#" download class="btn btn2">Download My Resume</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Enter Your Name" required>
+                    <input type="email" name="email"placeholder="Enter Your Email" required>
+                    <textarea name="Message" rows="6"placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright ©<i class="fa-solid fa-heart"></i> Nagaraju shivapalli</p>
+    </div>
+</div>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+</html>
+
+
