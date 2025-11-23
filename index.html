@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portfolio</title>
+  <meta name="description" content="Personal portfolio showcasing projects, skills and contact." />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <!---- <a class="logo" href="#home">Vibe</a> -->
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav id="primary-nav" class="primary-nav" data-open="false">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button id="theme-toggle" class="theme-toggle" aria-pressed="false" title="Toggle dark mode">🌙</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1>Hi — I'm <span class="accent">Nagaraju Shivapalli</span></h1>
+          <p class="lede">Software developer</p>
+          <div class="hero-ctas">
+            <a class="btn primary" href="#projects">See Projects</a>
+            <a class="btn outline" href="#contact">Contact Me</a>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <h2>About</h2>
+        <p>I’m a frontend developer focused on creating accessible, responsive interfaces and delightful user experiences. I enjoy solving problems, learning new tech, and collaborating on projects that make a difference.</p>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="project-grid">
+          <article class="card project-card" tabindex="0">
+            <img class="card-media" src="assets/defect_prediction.png" alt="Defect prediction project screenshot">
+            <div class="card-body">
+              <h3>NOVEL APPROACH TO IMPROVE SOFTWARE DEFECT PREDICTION ACCURACY</h3>
+              <p><strong>Domain:</strong> Machine Learning</p>
+              <p>Implemented feature selection techniques with machine learning classifiers to improve software defect prediction accuracy.</p>
+              <p><strong>Tools/Techniques:</strong> Python, Machine Learning</p>
+              <div class="card-actions">
+                <button class="btn small open-project" data-title="Defect Prediction" data-desc="Implemented feature selection techniques with ML classifiers to improve defect prediction accuracy. Tools: Python, ML">Details</button>
+                <a class="btn small" href="https://github.com/nagaraju504/A-Novel-Approach-to-Improve-Software-Defect-Prediction-Accuracy-using-Machine-learning/tree/main" target="_blank" rel="noopener">Code / Report</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card project-card" tabindex="0">
+            <img class="card-media" src="assets/iot_spam.png" alt="IoT spam detection project screenshot">
+            <div class="card-body">
+              <h3>EFFICIENT SPAM DETECTION TECHNIQUES FOR IOT DEVICES</h3>
+              <p><strong>Domain:</strong> Machine Learning</p>
+              <p>The primary objective of this project was designing and implementing a framework for detecting spam in IoT devices using machine learning techniques.</p>
+              <p><strong>Tools/Techniques:</strong> Python, Machine Learning</p>
+              <div class="card-actions">
+                <button class="btn small open-project" data-title="IoT Spam Detection" data-desc="Designed and implemented a framework for detecting spam in IoT devices using ML techniques. Tools: Python, ML">Details</button>
+                <a class="btn small" href="https://github.com/nagaraju504/efficient_spam_detection" target="_blank" rel="noopener">Code / Report</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2>Skills</h2>
+        <ul class="skill-list" aria-label="Skills">
+          <li>Python</li>
+          <li>Java</li>
+          <li>C / C++</li>
+          <li>Git, GitHub, VS Code</li>
+          <li>Operating Systems: Windows</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="certifications" class="certifications">
+      <div class="container">
+        <h2>Certifications</h2>
+        <ul>
+          <li>
+            <strong>Google Cloud Data Analyst — Google Cloud Platform</strong>
+            <p>I learned how to use Google Cloud services like BigQuery, Looker, and DataProc to efficiently process and analyze large datasets.</p>
+          </li>
+          <li>
+            <strong>Cloud Digital Leader — Google Cloud Platform</strong>
+            <p>I learned how to leverage Google Cloud’s infrastructure, including compute, storage, and networking solutions, to optimize business operations.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Want to work together or ask a question? Send a message.</p>
+        <form id="contact-form" class="contact-form" action="" method="post">
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" required>
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" required>
+          </label>
+          <label>
+            <span>Message</span>
+            <textarea name="message" rows="5" required></textarea>
+          </label>
+          <div class="form-actions">
+            <button type="submit" class="btn primary">Send</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>&copy; <span id="year"></span> Your Name — Built with care.</small>
+    </div>
+  </footer>
+
+  <!-- Project modal -->
+  <div id="project-modal" class="modal" role="dialog" aria-hidden="true" aria-labelledby="modal-title">
+    <div class="modal-panel">
+      <button class="modal-close" aria-label="Close project">✕</button>
+      <h3 id="modal-title"></h3>
+      <p id="modal-desc"></p>
+    </div>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
