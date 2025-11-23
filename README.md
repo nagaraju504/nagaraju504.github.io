@@ -32,20 +32,6 @@ A minimal, modern and accessible personal portfolio template using HTML, CSS and
 - Designed and implemented a framework for detecting spam in IoT devices using machine learning techniques.
 - Tools/Techniques: Python, Machine Learning
 
-## Quick start
-Open `index.html` in a browser. From PowerShell you can run:
-
-```powershell
-Start-Process "c:\Users\nagar\Desktop\vibe coding\index.html"
-```
-
-Or run a local static server (recommended for some features):
-
-```powershell
-# If you have Python installed
-cd "c:\Users\nagar\Desktop\vibe coding"; python -m http.server 8000
-# Then open http://localhost:8000
-```
 
 ## Customize
 - Replace placeholder images and project links in `index.html`.
@@ -53,3 +39,4 @@ cd "c:\Users\nagar\Desktop\vibe coding"; python -m http.server 8000
 
 ## License
 Free to use and adapt.
+
