@@ -1,42 +1,21 @@
-# Vibe — Personal Portfolio
+<h1 align="center">Hi 👋, I'm Nagaraju</h1>
+<h3 align="center">A passionate Software developer from Hyderabad</h3>
 
-A minimal, modern and accessible personal portfolio template using HTML, CSS and JavaScript.
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=nagaraju504&label=Profile%20views&color=0e75b6&style=flat" alt="nagaraju504" /> </p>
 
-## Features
-- Responsive layout (mobile-first)
-- Dark / light theme with persistence (localStorage)
-- Accessible navigation and keyboard-friendly modal
-- Smooth scroll and scroll reveal
-- Project cards and contact form (mailto fallback)
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=nagaraju504" alt="nagaraju504" /></a> </p>
 
-## Files
-- `index.html` — main markup
-- `styles.css` — responsive styles + dark mode
-- `script.js` — interactions: theme, nav, modal, form
+- 🌱 I’m currently learning **web development, data analytics**
 
-## Your details (updated)
+- 👯 I’m looking to collaborate on **Open source projects**
 
-- Skills: Python, Java, C/C++
-- Tools: Git, GitHub, VS Code
-- Operating Systems: Windows
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+</p>
 
-## Projects
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://cloud.google.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> </p>
 
-1) NOVEL APPROACH TO IMPROVE SOFTWARE DEFECT PREDICTION ACCURACY
-- Domain: Machine Learning
-- Implemented feature selection techniques with machine learning classifiers to improve software defect prediction accuracy.
-- Tools/Techniques: Python, Machine Learning
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=nagaraju504&show_icons=true&locale=en&layout=compact" alt="nagaraju504" /></p>
 
-2) EFFICIENT SPAM DETECTION TECHNIQUES FOR IOT DEVICES
-- Domain: Machine Learning
-- Designed and implemented a framework for detecting spam in IoT devices using machine learning techniques.
-- Tools/Techniques: Python, Machine Learning
-
-
-## Customize
-- Replace placeholder images and project links in `index.html`.
-- Update `your.email@example.com` in `script.js` to receive messages via mailto.
-
-## License
-Free to use and adapt.
-
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=nagaraju504&show_icons=true&locale=en" alt="nagaraju504" /></p>
